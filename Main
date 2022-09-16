@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+        for(int s = 0; s <= 9; s++){
+            for(int e = 0; e <= 9; e++){
+                for(int n = 0; n <= 9; n++){
+                    for(int d = 0; d <= 9; d++){
+                        for(int m = 0; m <= 9; m++){
+                            for(int o = 0; o <= 9; o++){
+                                for(int r = 0; r <= 9; r++){
+                                    for(int y = 0; y <= 9; y++)
+                                            if(s*1000 + e*100 + n*10 +d + m*1000 + o*100 + r*10 + e == m*10000 + o*1000 + n*100 + e*10 + y){
+                                                System.out.println(s*1000 + e*100 + n*10 + d);
+                                                System.out.println(m*1000 + o*100 + r*10 + e);
+                                                System.out.println(m*10000 + o*1000 + n*100 + e*10 + y);
+                                                System.out.println("--------------");
+                                        }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
